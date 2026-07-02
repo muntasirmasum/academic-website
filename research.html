@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5f6f8">
+<title>Research — Muntasir Masum, PhD</title>
+<meta name="description" content="How alcohol use, place, and social disadvantage shape chronic disease and mortality — research themes, an interactive body map, current funding, and grants.">
+<link rel="icon" href="favicon.svg">
+<link rel="apple-touch-icon" href="headshot-circle.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Research — Muntasir Masum, PhD">
+<meta property="og:description" content="Research themes, an interactive body map of health outcomes, current funding, and recently submitted grants.">
+<meta property="og:image" content="https://muntasirmasum.com/headshot-circle.png">
+<meta property="og:url" content="https://muntasirmasum.com/research.html">
+<meta property="og:site_name" content="Muntasir Masum, PhD">
+<link rel="canonical" href="https://muntasirmasum.com/research.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="author" content="Muntasir Masum">
+<script>try{if(localStorage.getItem('mm-theme')==='dark')document.documentElement.classList.add('quarto-dark')}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<link href="site.css" rel="stylesheet">
+<style>
+  #bodymap{ --bm-surface:var(--surface); --bm-ink:var(--ink); --bm-muted:var(--muted2); --bm-body:var(--body); --bm-border:var(--border); --bm-tint:var(--accent-tint); }
+</style>
+</head>
+<body>
+<div class="mm-root">
+  <a class="mm-skip" href="#main">Skip to content</a>
+
+  <!-- ===================== NAV ===================== -->
+  <nav class="mm-nav"><div class="mm-nav-inner">
+    <a class="mm-brand" href="index.html">Muntasir Masum</a>
+    <div class="mm-links">
+      <a class="mm-link" href="index.html">Home</a>
+      <a class="mm-link" href="about.html">About</a>
+      <a class="mm-link active" href="research.html">Research</a>
+      <a class="mm-link" href="publications.html">Publications</a>
+      <a class="mm-link" href="dispatches.html">Dispatches</a>
+      <a class="mm-link" href="teaching.html">Teaching</a>
+      <a class="mm-link" href="studio.html">Studio</a>
+      <a class="mm-ai" href="https://mmuntasir.substack.com/" target="_blank" rel="noopener">Alcohol Intelligence&#8201;&#8599;</a>
+    </div>
+    <div class="mm-nav-tools">
+      <button class="mm-iconbtn" data-mm-search aria-label="Search" title="Search · ⌘K or /"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="20.5" y1="20.5" x2="16.5" y2="16.5"></line></svg></button>
+      <button class="mm-iconbtn" data-mm-dark aria-label="Toggle dark mode" title="Toggle dark mode" style="font-size:16px">&#9680;</button>
+      <a class="mm-cv" href="cv.pdf" target="_blank" rel="noopener">CV&#8201;&#8599;</a>
+    </div>
+  </div></nav>
+
+  <!-- ===================== RESEARCH ===================== -->
+  <main class="mm-page narrow" id="main">
+    <h1 class="mm-h1">Research</h1>
+    <p class="mm-prose" style="margin:18px 0 0">My research asks how alcohol use, place, and social disadvantage shape chronic disease and mortality — and how modern statistical and machine-learning methods can sharpen those answers for policy.</p>
+
+    <div class="mm-note">
+      <div class="mm-note-label">In plain language</div>
+      <div class="mm-note-text">I study who drinks, where, and why — and how drinking, neighborhoods, and social disadvantage add up to real differences in heart health and lifespan. I use large national health surveys and machine learning to turn those patterns into evidence clinicians and policymakers can act on.</div>
+    </div>
+
+    <div class="mm-seclabel">Research at a glance</div>
+    <p class="mm-prose" style="font-size:15px;margin:0 0 14px;max-width:640px">A body map of my work: the behaviors I study as drivers, and the health outcomes I've published on — with regions I plan to reach as the work grows toward whole-body effects. <span style="color:var(--muted2)">Click a region.</span></p>
+
+    <div id="bodymap" style="margin:0 0 8px">
+      <div class="mm-bm-drivers">
+        <span class="mm-bm-driver-label">Drivers I study</span>
+        <span class="mm-bm-chip" data-drv="alcohol">Alcohol &amp; binge drinking</span>
+        <span class="mm-bm-chip" data-drv="sdoh">Neighborhood / SDOH</span>
+        <span class="mm-bm-chip" data-drv="redlining">Historical redlining</span>
+        <span class="mm-bm-chip" data-drv="smoking">Smoking</span>
+      </div>
+      <div id="bm-driver-info" class="mm-bm-info"></div>
+      <div class="mm-bm-grid">
+        <div id="bm-figure" class="mm-bm-figure">
+          <img src="bodymap-figure.png" alt="Human body — map of health outcomes I study" style="width:100%;height:100%;object-fit:contain;border-radius:10px;display:block">
+        </div>
+        <div id="bm-list"></div>
+      </div>
+      <div class="mm-bm-legend">
+        <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#46166b;margin-right:5px;vertical-align:middle"></span>Published / active &nbsp;&nbsp;
+        <span style="display:inline-block;width:9px;height:9px;border-radius:50%;border:1.5px dashed #9aa4ae;margin-right:5px;vertical-align:middle"></span>Planned
+      </div>
+    </div>
+
+    <div class="mm-seclabel">Themes</div>
+    <div class="mm-themes">
+      <div class="mm-theme"><h3>Alcohol epidemiology across the life course</h3><p>Drinking trajectories from adolescence into midlife and their links to hypertension, cardiovascular risk, and mortality — using NHIS, BRFSS, Add Health, and the Millennium Cohort Study.</p></div>
+      <div class="mm-theme"><h3>Social determinants &amp; place</h3><p>How neighborhood cohesion, length of residence, and historical redlining pattern health and health behaviors — and how those patterns differ by race, ethnicity, and sex.</p></div>
+      <div class="mm-theme"><h3>Machine learning for population health</h3><p>Predictive models for cognition and cardiovascular risk in early midlife, and reproducible, open pipelines for harmonizing large public-health surveys.</p></div>
+    </div>
+
+    <div class="mm-seclabel tight">Current funding</div>
+    <div class="mm-rows">
+      <div class="mm-row"><span class="mm-row-main"><strong>AI Plus Institute Agentic AI Seed Grant</strong> <span class="det">— PI. Agentic AI for harmonizing BRFSS data.</span></span><span class="mm-row-date">2026</span></div>
+      <div class="mm-row"><span class="mm-row-main"><strong>UAlbany Bridge Funding (SRP)</strong> <span class="det">— PI, $15,000. Alcohol trajectories and cardiovascular risk.</span></span><span class="mm-row-date">2026</span></div>
+      <div class="mm-row"><span class="mm-row-main"><strong>SUNY AI Platform Award</strong> <span class="det">— PI, $100,000. ML prediction of cardiovascular risk in early midlife.</span></span><span class="mm-row-date">2025–26</span></div>
+    </div>
+
+    <div class="mm-seclabel tight">Recently submitted</div>
+    <div class="mm-rows">
+      <div class="mm-row"><span class="mm-row-main"><strong>R21 (NIMH)</strong> <span class="det">— Mental distress and alcohol use in U.S. adults. PI.</span></span><span class="mm-row-date">2026</span></div>
+      <div class="mm-row"><span class="mm-row-main"><strong>R21 (NIEHS)</strong> <span class="det">— Atmospheric brown carbon and population health in New York State. Co-PI.</span></span><span class="mm-row-date">2026</span></div>
+      <div class="mm-row"><span class="mm-row-main"><strong>HEI RFA 26-1</strong> <span class="det">— Avoided health burden of traffic VOC and particle reductions. PI, $500,000, 3-year.</span></span><span class="mm-row-date">2026</span></div>
+    </div>
+    <p class="mm-prose" style="font-size:14px;color:var(--muted2);margin:18px 0 0">A complete record of funded, submitted, and in-preparation grants is in my <a href="cv.pdf" target="_blank" rel="noopener">CV</a>.</p>
+  </main>
+
+  <!-- ===================== CTA + FOOTER ===================== -->
+  <section class="mm-callout"><div class="mm-callout-inner">
+    <div>
+      <div class="mm-callout-title">Prospective students &amp; collaborators</div>
+      <div class="mm-callout-text">I welcome inquiries from students and collaborators interested in alcohol epidemiology, social determinants of health, and applied machine learning.</div>
+    </div>
+    <a class="mm-btn" href="mailto:mmasum@albany.edu">Get in touch</a>
+  </div></section>
+
+  <footer class="mm-footer">
+    <div class="mm-footer-grid">
+      <div>
+        <div class="mm-foot-name">Muntasir Masum, PhD</div>
+        <div class="mm-foot-bio">Assistant Professor, Epidemiology &amp; Biostatistics<br>College of Integrated Health Sciences<br>University at Albany (SUNY)<br>Pine Bush 255, 1400 Washington Ave., Albany, NY 12222</div>
+      </div>
+      <div>
+        <div class="mm-foot-h">Explore</div>
+        <div class="mm-foot-links">
+          <a href="index.html">Home</a>
+          <a href="publications.html">Publications</a>
+          <a href="research.html">Research</a>
+          <a href="dispatches.html">Dispatches</a>
+          <a href="teaching.html">Teaching</a>
+          <a href="studio.html">Studio</a>
+        </div>
+      </div>
+      <div>
+        <div class="mm-foot-h">Elsewhere</div>
+        <div class="mm-foot-links">
+          <a href="https://scholar.google.com/citations?user=3afD5JMAAAAJ&amp;hl=en&amp;inst=12410752515029022684" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://orcid.org/0000-0002-4210-2844" target="_blank" rel="noopener">ORCID</a>
+          <a href="https://github.com/muntasirmasum" target="_blank" rel="noopener">GitHub</a>
+          <a href="cv.pdf" target="_blank" rel="noopener">Curriculum Vitae (PDF)</a>
+          <a href="https://www.linkedin.com/in/muntasirmasum/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://bsky.app/profile/muntasirmasum.bsky.social" target="_blank" rel="noopener">Bluesky</a>
+          <a href="https://www.albany.edu/cihs/faculty/muntasir-masum" target="_blank" rel="noopener">Faculty page</a>
+        </div>
+      </div>
+    </div>
+    <div class="mm-foot-bottom"><div class="mm-foot-bottom-inner">&#169; 2026 Muntasir Masum &#183; Updated July 2026</div></div>
+  </footer>
+
+</div>
+<template id="__bundler_thumbnail" data-bg-color="#46166b">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#46166b"/>
+    <circle cx="600" cy="210" r="26" fill="#cbb1e8"/>
+    <circle cx="600" cy="320" r="26" fill="#7a4fb0"/>
+    <circle cx="600" cy="410" r="26" fill="#2a9d8f"/>
+    <circle cx="600" cy="510" r="26" fill="#c2a23a"/>
+    <text x="600" y="640" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" fill="#ffffff">Research</text>
+  </svg>
+</template>
+<script src="site.js"></script>
+<script>
+/* Interactive body map — drivers + outcomes I study (self-contained). */
+(function(){
+  var R=[
+    {key:'brain',label:'Brain & mind',color:'#46166b',x:51,y:8,planned:false,papers:[
+      ['Predictive modeling of cognitive function (ML)','J. Biomedical Informatics · Under review'],
+      ['Binge drinking, mental distress & the alcohol harm paradox','Annals of Epidemiology · Under review'],
+      ['Life\u2019s Essential 8 & cardiovascular health in stroke survivors','Topics in Stroke Rehabilitation · Submitted']]},
+    {key:'heart',label:'Heart & vessels',color:'#7a4fb0',x:51,y:33,planned:false,papers:[
+      ['Alcohol & binge drinking frequency and hypertension','Am. J. Preventive Medicine · 2024','https://doi.org/10.1016/j.amepre.2024.05.008'],
+      ['Abstainer heterogeneity & the alcohol\u2013CVD mortality J-curve','Addiction · Under review'],
+      ['ML prediction of early-midlife cardiovascular risk','SUNY AI Platform Award · Grant (PI)']]},
+    {key:'body',label:'Whole-body & metabolic',color:'#2a9d8f',x:51,y:47,planned:false,papers:[
+      ['\u201CThe Weight of Place\u201D: obesity trajectories into midlife','Annals of Epidemiology · Under review'],
+      ['Combined alcohol use & weight status effects on mortality','Drug & Alcohol Dependence · 2022','https://doi.org/10.1016/j.drugalcdep.2021.109206'],
+      ['Diminished returns of neighborhood cohesion for self-rated health','J. Racial & Ethnic Health Disparities · R&R']]},
+    {key:'legs',label:'Midlife function',color:'#c2a23a',x:50,y:68,planned:false,papers:[
+      ['Boomer\u2013Gen X gap in midlife functional limitations','Demography · Under review']]},
+    {key:'planned',label:'Whole-body (planned)',color:'#9aa4ae',x:59,y:41,planned:true,papers:[]}
+  ];
+  var active=null;
+  var fig=document.getElementById('bm-figure'), list=document.getElementById('bm-list');
+  function esc(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML;}
+  function setActive(k){ if(active!==k){ active=k; render(); } }
+  function render(){
+    fig.querySelectorAll('.bm-dot').forEach(function(n){n.remove();});
+    R.forEach(function(r){
+      var on=r.key===active, sz=on?14:10;
+      var d=document.createElement('div'); d.className='bm-dot';
+      d.setAttribute('role','button'); d.setAttribute('tabindex','0'); d.setAttribute('aria-label',r.label);
+      d.style.cssText='position:absolute;left:'+r.x+'%;top:'+r.y+'%;transform:translate(-50%,-50%);width:'+sz+'px;height:'+sz+'px;border-radius:50%;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.35);transition:width .12s ease,height .12s ease;background:'+(r.planned?'transparent':r.color)+';border:'+(r.planned?'2px dashed '+r.color:'2px solid #fff')+(on?';outline:3px solid rgba(0,0,0,.12)':'');
+      d.onmouseenter=function(){setActive(r.key);};
+      d.onmouseleave=function(){setActive(null);};
+      d.onfocus=function(){setActive(r.key);};
+      d.onblur=function(){setActive(null);};
+      d.onclick=function(){setActive(r.key);};
+      d.onkeydown=function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); setActive(r.key); } };
+      fig.appendChild(d);
+    });
+    list.innerHTML='';
+    R.forEach(function(r){
+      var on=r.key===active;
+      var row=document.createElement('div');
+      row.style.cssText='cursor:pointer;border:1px solid '+(on?r.color:'var(--bm-border)')+';border-left:4px solid '+r.color+';border-radius:10px;padding:11px 14px;margin-bottom:8px;background:'+(on?'var(--bm-tint)':'var(--bm-surface)');
+      var h='<div style="display:flex;align-items:center;font-weight:600;font-size:.95rem;font-family:\'IBM Plex Sans\',system-ui,sans-serif;color:var(--bm-ink)"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:8px;background:'+(r.planned?'transparent':r.color)+(r.planned?';border:1.5px dashed '+r.color:'')+'"></span>'+esc(r.label)+'</div>';
+      var b='';
+      if(on){
+        b='<div style="margin-top:9px;display:flex;flex-direction:column;gap:9px;font-family:\'IBM Plex Sans\',system-ui,sans-serif">';
+        if(r.planned){b+='<div style="font-size:.85rem;line-height:1.5;color:var(--bm-body)">A future direction — extending alcohol\u2019s reach to more organ systems (liver, kidney, immune, and beyond) as the work grows.</div>';}
+        r.papers.forEach(function(p){var t=p[2]?'<a href="'+p[2]+'" target="_blank" rel="noopener" style="color:var(--accent-text);text-decoration:none;border-bottom:1px solid var(--accent-underline)">'+esc(p[0])+'</a>':esc(p[0]);b+='<div><div style="font-weight:500;font-size:.82rem;line-height:1.4;color:var(--bm-ink)">'+t+'</div><div style="font-size:.76rem;color:var(--bm-muted);margin-top:2px">'+esc(p[1])+'</div></div>';});
+        b+='</div>';
+      }
+      row.innerHTML=h+b; row.onclick=function(){setActive(r.key);};
+      list.appendChild(row);
+    });
+  }
+  var DRV={
+    alcohol:{d:'My primary exposure — drinking frequency, binge patterns, and trajectories from adolescence into midlife, and their links to hypertension, cardiovascular risk, and mortality.',p:[['Alcohol & binge drinking frequency and hypertension','Am. J. Preventive Medicine · 2024','https://doi.org/10.1016/j.amepre.2024.05.008'],['Labor force status buffers alcohol mortality risk','Preventive Medicine · 2022','https://doi.org/10.1016/j.ypmed.2022.107139'],['Combined alcohol use & weight status effects on mortality','Drug & Alcohol Dependence · 2022','https://doi.org/10.1016/j.drugalcdep.2021.109206']]},
+    sdoh:{d:'How neighborhood cohesion, length of residence, and social disadvantage pattern drinking and health — and how those patterns differ by race, ethnicity, and sex.',p:[['Does staying put protect? Neighborhood cohesion & drinking','Alcohol & Alcoholism · 2026','https://doi.org/10.1093/alcalc/agag025'],['Diminished returns of neighborhood cohesion for self-rated health','J. Racial & Ethnic Health Disparities · R&R','']]},
+    redlining:{d:'Structural pathways from historical neighborhood redlining to present-day alcohol environments and binge drinking in early midlife.',p:[['Historical redlining and binge drinking in early midlife','American Journal of Epidemiology · Submitted','']]},
+    smoking:{d:'Not a primary driver in my own work — but I have co-authored research on smoking.',p:[['Protective factors & daily smoking among transgender adults','Nicotine & Tobacco Research · 2025','https://doi.org/10.1093/ntr/ntaf051']]}
+  };
+  var dInfo=document.getElementById('bm-driver-info');
+  function renderDriver(key){
+    var x=DRV[key]; if(!x||!dInfo)return;
+    var h='<div style="font-size:14px;line-height:1.55;color:var(--bm-body)">'+esc(x.d)+'</div><div style="margin-top:10px;display:flex;flex-direction:column;gap:8px">';
+    x.p.forEach(function(p){var t=p[2]?'<a href="'+p[2]+'" target="_blank" rel="noopener" style="color:var(--accent-text);text-decoration:none;border-bottom:1px solid var(--accent-underline)">'+esc(p[0])+'</a>':esc(p[0]);h+='<div><div style="font-weight:500;font-size:13px;line-height:1.4;color:var(--bm-ink)">'+t+'</div><div style="font-size:12px;color:var(--bm-muted);margin-top:2px">'+esc(p[1])+'</div></div>';});
+    dInfo.innerHTML=h+'</div>';
+    dInfo.style.display='block';
+  }
+  function setupDrivers(){
+    var chips=document.querySelectorAll('#bodymap [data-drv]');
+    chips.forEach(function(c){c.addEventListener('click',function(){
+      var on=c.classList.contains('on');
+      chips.forEach(function(x){x.classList.remove('on');});
+      if(on){dInfo.style.display='none';dInfo.innerHTML='';}
+      else{c.classList.add('on');renderDriver(c.getAttribute('data-drv'));}
+    });});
+  }
+  render();
+  setupDrivers();
+})();
+</script>
+</body>
+</html>
