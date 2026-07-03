@@ -290,6 +290,33 @@ a.mm-pub-card:focus-visible{ outline:2px solid var(--accent); outline-offset:3px
 .mm-ov-row.is-active{ background:var(--accent-tint); border-left-color:var(--accent); }
 .mm-ov-foot .mm-kbd{ display:inline-flex; align-items:center; justify-content:center; min-width:18px; height:18px; padding:0 5px; margin-right:2px; border:1px solid var(--btnborder); border-radius:5px; background:var(--surface); font:600 11px 'IBM Plex Sans',system-ui,sans-serif; color:var(--muted); }
 
+/* ---------- STUDIO FIGURE CARDS + LIGHTBOX ---------- */
+.mm-figcard{ cursor:pointer; }
+.mm-figcard:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+.mm-figthumb{ height:190px; object-fit:contain; background:#fff; padding:8px; border-bottom:1px solid var(--border); }
+.mm-figcard-link{ color:inherit; text-decoration:none; }
+.mm-figcard-link:hover{ color:var(--accent-text); text-decoration:underline; text-decoration-color:var(--accent-underline); }
+
+.mm-lb{ align-items:center; padding:5vh 20px; }
+.mm-lb-panel{ width:min(1100px,96vw); max-height:90vh; background:var(--surface); border:1px solid var(--border); border-radius:15px; box-shadow:0 26px 64px rgba(15,12,20,.34); overflow:hidden; display:flex; flex-direction:column; animation:mmFadeUp .15s ease both; }
+.mm-lb-head{ display:flex; align-items:center; justify-content:flex-end; padding:10px 12px; border-bottom:1px solid var(--border); }
+.mm-lb-close{ display:inline-flex; align-items:center; justify-content:center; width:34px; height:34px; border:1px solid var(--btnborder); border-radius:8px; background:var(--surface); color:var(--muted); cursor:pointer; font:600 20px 'IBM Plex Sans',system-ui,sans-serif; line-height:1; }
+.mm-lb-close:hover{ border-color:var(--accent); color:var(--accent-text); }
+.mm-lb-close:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+.mm-lb-scroll{ overflow:auto; padding:16px; display:flex; flex-direction:column; gap:16px; }
+.mm-lb-mat{ background:#fff; border:1px solid var(--border); border-radius:10px; padding:14px; text-align:center; overflow-x:auto; }
+.mm-lb-mat img{ display:block; max-width:100%; height:auto; margin:0 auto; }
+.mm-lb-mat.is-wide img{ min-width:680px; }
+.mm-lb-cap{ padding:2px 18px 6px; font:400 13.5px/1.6 'IBM Plex Sans',system-ui,sans-serif; color:var(--muted); }
+.mm-lb-foot{ padding:12px 18px 16px; border-top:1px solid var(--border); }
+.mm-lb-paper{ display:inline-flex; align-items:center; gap:5px; font:600 13px 'IBM Plex Sans',system-ui,sans-serif; color:var(--accent-text); text-decoration:none; }
+.mm-lb-paper:hover{ text-decoration:underline; text-decoration-color:var(--accent-underline); }
+@media (max-width:640px){
+  .mm-lb{ padding:0; }
+  .mm-lb-panel{ width:100vw; max-height:100vh; border-radius:0; border:0; }
+  .mm-lb-mat.is-wide img{ min-width:0; }
+}
+
 /* ---------- RESPONSIVE ---------- */
 @media (max-width:820px){
   .mm-grid3{ grid-template-columns:1fr; }

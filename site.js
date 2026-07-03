@@ -130,6 +130,60 @@
     btn.addEventListener('click',function(){ var open=nav.classList.toggle('open'); btn.setAttribute('aria-expanded', open?'true':'false'); });
     inner.querySelectorAll('.mm-links a').forEach(function(a){ a.addEventListener('click',function(){ nav.classList.remove('open'); btn.setAttribute('aria-expanded','false'); }); });
   }
-  function init(){build();wire();setupNav();}
+  /* ---------- FIGURE LIGHTBOX (studio) ---------- */
+  var lbOv=null,lbLast=null;
+  function lbBuild(){
+    lbOv=document.createElement('div');
+    lbOv.className='mm-ov mm-lb';
+    lbOv.style.display='none';
+    lbOv.innerHTML='<div class="mm-lb-panel" role="dialog" aria-modal="true" aria-label="Figure viewer"><div class="mm-lb-head"><button class="mm-lb-close" type="button" aria-label="Close figure viewer">&#215;</button></div><div class="mm-lb-scroll"></div><figcaption class="mm-lb-cap"></figcaption><div class="mm-lb-foot"></div></div>';
+    document.body.appendChild(lbOv);
+    lbOv.querySelector('.mm-lb-close').addEventListener('click',lbClose);
+    lbOv.addEventListener('click',function(e){if(e.target===lbOv)lbClose();});
+    document.addEventListener('keydown',function(e){
+      if(!lbOv||lbOv.style.display==='none')return;
+      if(e.key==='Escape'){e.preventDefault();lbClose();return;}
+      if(e.key==='Tab')lbTrap(e);
+    });
+  }
+  function lbTrap(e){
+    var f=lbOv.querySelectorAll('button, a[href]');
+    if(!f.length)return;
+    var first=f[0],last=f[f.length-1];
+    if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}
+    else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}
+  }
+  function lbOpen(card){
+    if(!lbOv)lbBuild();
+    var figs=(card.getAttribute('data-mm-figs')||'').split(',').map(function(s){return s.trim();}).filter(Boolean);
+    var alts=(card.getAttribute('data-mm-alt')||'').split('|');
+    var cap=card.getAttribute('data-mm-cap')||'';
+    var paper=card.getAttribute('data-mm-paper')||'';
+    var plabel=card.getAttribute('data-mm-paper-label')||'View the paper';
+    var wide=figs.length===1;
+    lbOv.querySelector('.mm-lb-scroll').innerHTML=figs.map(function(src,i){
+      var a=esc(alts[i]||alts[0]||'Research figure');
+      return '<div class="mm-lb-mat'+(wide?' is-wide':'')+'"><img src="'+esc(src)+'" alt="'+a+'"></div>';
+    }).join('');
+    lbOv.querySelector('.mm-lb-cap').innerHTML=esc(cap);
+    lbOv.querySelector('.mm-lb-foot').innerHTML=paper?'<a class="mm-lb-paper" href="'+esc(paper)+'" target="_blank" rel="noopener">'+esc(plabel)+' &#8599;</a>':'';
+    lbLast=document.activeElement;
+    lbOv.style.display='flex';
+    document.body.style.overflow='hidden';
+    lbOv.querySelector('.mm-lb-close').focus();
+  }
+  function lbClose(){
+    if(!lbOv)return;
+    lbOv.style.display='none';
+    document.body.style.overflow='';
+    if(lbLast&&lbLast.focus){lbLast.focus();lbLast=null;}
+  }
+  function lbWire(){
+    document.querySelectorAll('.mm-figcard').forEach(function(card){
+      card.addEventListener('click',function(e){ if(e.target.closest('a'))return; lbOpen(card); });
+      card.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); lbOpen(card); } });
+    });
+  }
+  function init(){build();wire();setupNav();lbWire();}
   if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);
 })();
