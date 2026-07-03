@@ -98,6 +98,7 @@ body{ background:var(--bg); }
   padding:6px 13px; font:500 13px 'IBM Plex Sans',system-ui,sans-serif; cursor:pointer; transition:all .15s ease; }
 .mm-tag:hover{ border-color:var(--accent); color:var(--accent-text); background:var(--accent-tint); }
 .mm-hero-tags{ display:inline-grid; grid-template-columns:1fr 1fr; gap:9px; margin-top:8px; }
+.mm-about-tags{ justify-content:flex-start; }
 
 /* ---------- SECTIONS / CARDS ---------- */
 .mm-wrap{ max-width:1080px; margin:0 auto; padding:0 28px; }
@@ -316,6 +317,7 @@ a.mm-pub-card:focus-visible{ outline:2px solid var(--accent); outline-offset:3px
 
 /* ---------- SMALL SCREENS ---------- */
 @media (max-width:640px){
+  .mm-about-tags{ flex-direction:column; align-items:flex-start; }
   .mm-nav-inner{ padding:11px 20px; gap:14px; }
   .mm-nav-tools{ gap:14px; }
   .mm-page{ padding:40px 20px 8px; }
