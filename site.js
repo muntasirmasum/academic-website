@@ -40,6 +40,8 @@
     {t:'Machine learning for population health',s:'Research',u:'research.html',b:'Predictive models for cognition and CVD risk, and reproducible pipelines for survey harmonization.',k:['ml','reproducible']},
     {t:'AI Plus Institute Agentic AI Seed Grant',s:'Funding',u:'research.html',b:'PI, 2026. Agentic AI for harmonizing BRFSS data.',k:['ml','reproducible']},
     {t:'SUNY AI Platform Award',s:'Funding',u:'research.html',b:'PI, $100,000, 2025-26. ML prediction of cardiovascular risk in early midlife.',k:['ml','chronic']},
+    {t:'AI & Society Research Fellowship',s:'Funding',u:'research.html',b:'Fellow, 2026-27. AI & Society Research Center, co-funded by the Institute for Social and Health Equity.',k:['ml','sdoh']},
+    {t:'Faculty Innovation Fellowship',s:'Funding',u:'research.html',b:'Fellow, 2026-27. AI & Society College, University at Albany.',k:['ml','reproducible']},
     {t:'Alcohol & hypertension',s:'Visualization',u:'studio.html',b:'A four-panel figure of hypertension prevalence by drinking pattern (measured, diagnosed, undiagnosed, composite). Am. J. Prev. Med., 2024.',k:['alcohol','chronic']},
     {t:'Cohesion × length of residence',s:'Visualization',u:'studio.html',b:'Predicted probability of heavy and binge drinking by neighborhood cohesion, across length of residence and sex. Alcohol & Alcoholism, 2026.',k:['alcohol','sdoh']},
     {t:'Grant Radar',s:'Tool',u:'studio.html',b:'A weekly dashboard turning NIH funding notices into structured, searchable cards. R + Quarto.',k:['reproducible']},
