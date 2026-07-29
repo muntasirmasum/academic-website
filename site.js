@@ -47,6 +47,8 @@
     {t:'SUNY AI Platform Award',s:'Funding',u:'research.html',b:'PI, $100,000, 2025-26. ML prediction of cardiovascular risk in early midlife.',k:['ml','chronic']},
     {t:'AI & Society Research Fellowship',s:'Funding',u:'research.html',b:'Fellow, 2026-27. AI & Society Research Center, co-funded by the Institute for Social and Health Equity.',k:['ml','sdoh']},
     {t:'Faculty Innovation Fellowship',s:'Funding',u:'research.html',b:'Fellow, 2026-27. AI & Society College, University at Albany.',k:['ml','reproducible']},
+    {t:'Plain-language summary: The weight of place',s:'Summary',u:'publications.html',b:'One-page summary of the Annals of Epidemiology paper on neighborhood disadvantage and obesity trajectories.',k:['sdoh','chronic']},
+    {t:'Plain-language summary: Does staying put protect?',s:'Summary',u:'publications.html',b:'One-page summary of the Alcohol and Alcoholism paper on neighborhood cohesion, length of residence, and drinking.',k:['alcohol','sdoh']},
     {t:'BMI trajectories & neighborhood disadvantage',s:'Visualization',u:'studio.html',b:'Three BMI trajectories from age 16 to 38, and how neighborhood concentrated disadvantage shifts the odds of the steepest one. Annals of Epidemiology, 2026.',k:['sdoh','longitudinal','chronic']},
     {t:'Alcohol & hypertension',s:'Visualization',u:'studio.html',b:'A four-panel figure of hypertension prevalence by drinking pattern (measured, diagnosed, undiagnosed, composite). Am. J. Prev. Med., 2024.',k:['alcohol','chronic']},
     {t:'Cohesion × length of residence',s:'Visualization',u:'studio.html',b:'Predicted probability of heavy and binge drinking by neighborhood cohesion, across length of residence and sex. Alcohol & Alcoholism, 2026.',k:['alcohol','sdoh']},
@@ -64,7 +66,7 @@
     {t:'Notes from the UAlbany AI Plus Symposium',s:'Writing',u:'dispatches.html',b:'March 2026. Teaching regression methods with Claude and RStudio.',k:['ml','reproducible']}
   ];
   var TL={alcohol:'Alcohol epidemiology',sdoh:'Social determinants of health',ml:'Machine learning',longitudinal:'Survival & longitudinal data',chronic:'Chronic health outcomes',reproducible:'Reproducible research'};
-  var ORD={Publication:1,Research:2,Funding:3,Talk:4,Course:5,Tutorial:6,Visualization:7,Tool:8,Writing:9};
+  var ORD={Publication:1,Summary:2,Research:3,Funding:4,Talk:5,Course:6,Tutorial:7,Visualization:8,Tool:9,Writing:10};
   var ov,headEl,listEl,inputEl,rows=[],sel=-1;
   var NAV=[
     {s:'Page',t:'Home',u:'index.html',b:'Overview, selected work, and recent news.'},
