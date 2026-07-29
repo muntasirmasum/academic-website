@@ -41,9 +41,12 @@ Point the script at a `research_summary/` folder (the Quarto one-pager output)
 and it copies the PDF, builds the thumbnail, and updates the page and search:
 
 ```
-python3 ../scripts/add_summary.py "/path/to/research_summary"
-python3 ../scripts/add_summary.py "/path/to/research_summary" --dry-run   # preview
+python3 scripts/add_summary.py "/path/to/research_summary"
+python3 scripts/add_summary.py "/path/to/research_summary" --dry-run   # preview
 ```
+
+`scripts/` is version-controlled but excluded from the deployment by
+`.vercelignore`, so it never ships to the live site.
 
 Title, venue, subtitle, and DOI are read from the folder's `.qmd`. Override any
 of them with `--title / --venue / --desc / --doi`, and set search keywords with

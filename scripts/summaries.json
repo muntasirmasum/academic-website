@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "cohesion-residence",
+    "title": "Does staying put protect?",
+    "venue": "Alcohol & Alcoholism · 2026",
+    "desc": "How length of residence shapes the neighborhood cohesion–alcohol link among U.S. adults.",
+    "doi": "10.1093/alcalc/agag025",
+    "search_desc": "One-page summary of the Alcohol and Alcoholism paper on neighborhood cohesion, length of residence, and drinking.",
+    "keywords": [
+      "alcohol",
+      "sdoh"
+    ]
+  },
+  {
+    "slug": "weight-of-place",
+    "title": "The weight of place",
+    "venue": "Annals of Epidemiology · 2026",
+    "desc": "How neighborhood disadvantage in adolescence shapes obesity trajectories into early midlife.",
+    "doi": "10.1016/j.annepidem.2026.110246",
+    "search_desc": "One-page summary of the Annals of Epidemiology paper on neighborhood disadvantage and obesity trajectories.",
+    "keywords": [
+      "sdoh",
+      "chronic"
+    ]
+  }
+]
