@@ -39,7 +39,7 @@
     {t:'Stability of the immigrant mortality advantage across US birth cohorts',s:'Publication',u:'publications.html',b:'Population Research and Policy Review, under review.',k:['longitudinal','sdoh']},
     {t:'Cohort patterns in adult alcohol use after the 1984 drinking-age act',s:'Publication',u:'publications.html',b:'The Milbank Quarterly, under review. Differential effects by sex, race/ethnicity, and education.',k:['alcohol','longitudinal']},
     {t:'Life’s Essential 8 cardiovascular health in US stroke survivors',s:'Publication',u:'publications.html',b:'Topics in Stroke Rehabilitation, submitted. A latent profile analysis of NHANES 2011-2020.',k:['chronic']},
-    {t:'Diminished returns of neighborhood cohesion for self-rated health',s:'Publication',u:'publications.html',b:'Journal of Racial and Ethnic Health Disparities, revise and resubmit.',k:['sdoh']},
+    {t:'Diminished returns of neighborhood cohesion for self-rated health',s:'Publication',u:'publications.html',b:'Journal of Racial and Ethnic Health Disparities, 2026 (in press). Cohesion returns for self-rated health differ across racial and ethnic groups.',k:['sdoh']},
     {t:'Alcohol epidemiology across the life course',s:'Research',u:'research.html',b:'Drinking trajectories from adolescence into midlife and links to hypertension, CVD, and mortality.',k:['alcohol','longitudinal','chronic']},
     {t:'Social determinants & place',s:'Research',u:'research.html',b:'How cohesion, length of residence, and redlining pattern health by race, ethnicity, and sex.',k:['sdoh']},
     {t:'Machine learning for population health',s:'Research',u:'research.html',b:'Predictive models for cognition and CVD risk, and reproducible pipelines for survey harmonization.',k:['ml','reproducible']},
