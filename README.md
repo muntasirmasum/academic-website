@@ -34,6 +34,27 @@ DEPLOY.md            Hosting steps (Vercel / GitHub Pages)
 - Chronological lists are newest-first. Colors only via the CSS variables in
   `site.css` (`:root` light / `.quarto-dark` dark) so dark mode keeps working.
 
+## Adding a plain-language summary
+
+The "Plain-language summaries" block on the publications page is generated.
+Point the script at a `research_summary/` folder (the Quarto one-pager output)
+and it copies the PDF, builds the thumbnail, and updates the page and search:
+
+```
+python3 ../scripts/add_summary.py "/path/to/research_summary"
+python3 ../scripts/add_summary.py "/path/to/research_summary" --dry-run   # preview
+```
+
+Title, venue, subtitle, and DOI are read from the folder's `.qmd`. Override any
+of them with `--title / --venue / --desc / --doi`, and set search keywords with
+`--keywords sdoh,chronic`.
+
+Entries live in `scripts/summaries.json` (newest first) — edit that file for
+wording changes, then run `add_summary.py --regen`. Don't hand-edit between the
+`SUMMARIES:START` / `SUMMARIES:END` markers in `publications.html` or `site.js`;
+those regions are overwritten. Re-running on a folder refreshes the title, venue,
+and DOI while keeping curated prose and keywords.
+
 ## Local preview
 
 Any static server works, e.g.:
