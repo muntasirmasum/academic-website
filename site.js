@@ -54,6 +54,7 @@
     {t:'BMI trajectories & neighborhood disadvantage',s:'Visualization',u:'studio.html',b:'Three BMI trajectories from age 16 to 38, and how neighborhood concentrated disadvantage shifts the odds of the steepest one. Annals of Epidemiology, 2026.',k:['sdoh','longitudinal','chronic']},
     {t:'Alcohol & hypertension',s:'Visualization',u:'studio.html',b:'A four-panel figure of hypertension prevalence by drinking pattern (measured, diagnosed, undiagnosed, composite). Am. J. Prev. Med., 2024.',k:['alcohol','chronic']},
     {t:'Cohesion × length of residence',s:'Visualization',u:'studio.html',b:'Predicted probability of heavy and binge drinking by neighborhood cohesion, across length of residence and sex. Alcohol & Alcoholism, 2026.',k:['alcohol','sdoh']},
+    {t:'brfssdata (R package)',s:'Tool',u:'studio.html',b:'Programmatic access to CDC BRFSS microdata, 1985-2024. Parquet-backed storage, DuckDB queries, and ready-made srvyr survey designs. In development.',k:['reproducible']},
     {t:'Grant Radar',s:'Tool',u:'studio.html',b:'A weekly dashboard turning NIH funding notices into structured, searchable cards. R + Quarto.',k:['reproducible']},
     {t:'Quarto + Typst CV template',s:'Tool',u:'studio.html',b:'A reproducible, data-driven academic CV — one render produces the PDF.',k:['reproducible']},
     {t:'CIHS Course Waiver Evaluator',s:'Tool',u:'studio.html',b:'A Shiny app scoring syllabi against course content with local NLP and the Claude API.',k:['ml','reproducible']},
