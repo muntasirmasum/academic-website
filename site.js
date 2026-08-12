@@ -64,12 +64,13 @@
     {t:'EPI 553 — Principles of Statistical Inference II',s:'Course',u:'teaching.html',b:'Graduate biostatistics — regression, ANOVA, logistic, Poisson, and survival models.',k:['longitudinal','reproducible']},
     {t:'HSPH 459 — Alcohol, Society & Health',s:'Course',u:'teaching.html',b:'An undergraduate course on alcohol, society, and health.',k:['alcohol']},
     {t:'Publication-Ready Tables in R',s:'Tutorial',u:'teaching.html',b:'A practical guide to Table 1 and regression tables with gtsummary and flextable.',k:['reproducible']},
+    {t:'E3 Practices: Teaching Enhancement',s:'Manual',u:'teaching.html',b:'Eleven evidence-based teaching practices from the E3 fellowship, plus course design, with implementation notes for EPI 601.',k:[]},
     {t:'Funded: agentic AI to harmonize the BRFSS',s:'Writing',u:'dispatches.html',b:'June 2026. What the seed grant will build, and why harmonization matters.',k:['ml','reproducible']},
     {t:'Why I rebuilt my CV and website in Quarto',s:'Writing',u:'dispatches.html',b:'April 2026. One data source for the CV and the whole site, and far less maintenance.',k:['reproducible']},
     {t:'Notes from the UAlbany AI Plus Symposium',s:'Writing',u:'dispatches.html',b:'March 2026. Teaching regression methods with Claude and RStudio.',k:['ml','reproducible']}
   ];
   var TL={alcohol:'Alcohol epidemiology',sdoh:'Social determinants of health',ml:'Machine learning',longitudinal:'Survival & longitudinal data',chronic:'Chronic health outcomes',reproducible:'Reproducible research'};
-  var ORD={Publication:1,Summary:2,Research:3,Funding:4,Talk:5,Course:6,Tutorial:7,Visualization:8,Tool:9,Writing:10};
+  var ORD={Publication:1,Summary:2,Research:3,Funding:4,Talk:5,Course:6,Tutorial:7,Manual:8,Visualization:9,Tool:10,Writing:11};
   var ov,headEl,listEl,inputEl,rows=[],sel=-1;
   var NAV=[
     {s:'Page',t:'Home',u:'index.html',b:'Overview, selected work, and recent news.'},
