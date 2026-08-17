@@ -58,6 +58,7 @@
     {t:'Grant Radar',s:'Tool',u:'studio.html',b:'A weekly dashboard turning NIH funding notices into structured, searchable cards. R + Quarto.',k:['reproducible']},
     {t:'Quarto + Typst CV template',s:'Tool',u:'studio.html',b:'A reproducible, data-driven academic CV — one render produces the PDF.',k:['reproducible']},
     {t:'CIHS Course Waiver Evaluator',s:'Tool',u:'studio.html',b:'A Shiny app scoring syllabi against course content with local NLP and the Claude API.',k:['ml','reproducible']},
+    {t:'csv2brightspace',s:'Tool',u:'studio.html',b:'A browser tool converting a spreadsheet of quiz questions into a Brightspace (D2L) Question Library CSV, and repairing broken imports.',k:['reproducible']},
     {t:'EduWork DataBridge',s:'Tool',u:'studio.html',b:'Contributor. Open-source reference for governed education and workforce data interoperability — validation, identity matching, lineage, and exports. FastAPI + React.',k:['reproducible']},
     {t:'AI in Epidemiology (workshop)',s:'Talk',u:'dispatches.html',b:'A hands-on reveal.js workshop on AI tools in epidemiologic research and teaching.',k:['ml','reproducible']},
     {t:'No Protective Effect of Moderate Drinking',s:'Talk',u:'dispatches.html',b:'Invited talk, 2025. Beyond Addiction Symposium, University at Albany.',k:['alcohol']},
