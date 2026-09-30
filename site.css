@@ -56,8 +56,8 @@ body{ background:var(--bg); }
 .mm-nav-inner{ max-width:1080px; margin:0 auto; padding:13px 28px; display:flex; align-items:center;
   justify-content:space-between; gap:18px; flex-wrap:wrap; }
 .mm-brand{ font:600 20px 'Newsreader',Georgia,serif; color:var(--ink); letter-spacing:-.2px; text-decoration:none; }
-.mm-links{ display:flex; align-items:center; gap:20px; flex-wrap:wrap; margin-left:auto; }
-.mm-nav-tools{ display:flex; align-items:center; gap:18px; }
+.mm-links{ display:flex; align-items:center; gap:18px; flex-wrap:wrap; margin-left:auto; }
+.mm-nav-tools{ display:flex; align-items:center; gap:14px; }
 .mm-link{ font:500 14.5px 'IBM Plex Sans',system-ui,sans-serif; color:var(--muted); text-decoration:none; }
 .mm-link:hover{ color:var(--accent-text); }
 .mm-link.active{ font-weight:600; color:var(--accent-text); }
@@ -382,7 +382,7 @@ a.mm-pub-card:focus-visible{ outline:2px solid var(--accent); outline-offset:3px
 
 /* ---------- MOBILE NAV (progressive enhancement; hamburger injected by site.js) ---------- */
 .mm-hamburger{ display:none; align-items:center; justify-content:center; background:none; border:0; padding:6px; margin:-2px -6px; color:var(--ink); cursor:pointer; }
-@media (max-width:1050px){
+@media (max-width:1100px){
   .mm-js .mm-hamburger{ display:inline-flex; }
   .mm-js .mm-links{ display:none; order:10; margin-left:0; width:100%; flex-direction:column; align-items:stretch; gap:0; padding:4px 0 10px; }
   .mm-js .mm-nav.open .mm-links{ display:flex; }

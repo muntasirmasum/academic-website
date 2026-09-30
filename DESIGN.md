@@ -218,7 +218,7 @@ Body text never drops below 13px; caps labels never below 9.5px. No third font.
   dispatches, studio), home pubs/news split 1.55fr/1fr — all `gap` 16–20px.
 - The chronology pattern is `.mm-rows`: flex rows, hairline top borders,
   bold item + muted detail on the left, nowrap date on the right.
-- Breakpoints: **1050px** nav collapses to hamburger (injected by site.js);
+- Breakpoints: **1100px** nav collapses to hamburger (injected by site.js);
   **820px** all grids go single-column, display type steps down (name 38px,
   h1 36px); **640px / 480px** compact type and spacing. Chronological lists
   are always newest-first.
@@ -309,5 +309,5 @@ line, and Teaching "reach out" — not in the footer.
 `design-port/` layout: seven pages + `404.html`, one `site.css` (tokens +
 all components), one `site.js` (dark-mode persistence + theme-color sync,
 ⌘K search with curated `IDX`/`NAV` arrays, topic pop-ups, hamburger injection
-≤1050px). Hamburger and search are progressive enhancements behind the
+≤1100px). Hamburger and search are progressive enhancements behind the
 `.mm-js` class. Validate this file with `npx @google/design.md lint DESIGN.md`.
