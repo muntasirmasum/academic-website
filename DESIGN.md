@@ -304,6 +304,11 @@ memberships live in the CV only. Education entries show no years; mentee
 names are never listed (count only). Email appears in the hero, About contact
 line, and Teaching "reach out" — not in the footer.
 
+News lives in the **News** list at the top of Dispatches (`dispatches.html#news`),
+newest first. The home page shows the 5 newest of those items with identical
+`.mm-news-item` markup: when adding one, add it to both and drop the oldest from
+home. Dates are always month + year.
+
 ## Implementation Notes
 
 `design-port/` layout: seven pages + `404.html`, one `site.css` (tokens +

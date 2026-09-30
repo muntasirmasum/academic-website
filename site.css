@@ -26,6 +26,7 @@
 
 *{ box-sizing:border-box; }
 html,body{ margin:0; padding:0; }
+html{ scroll-padding-top:80px; } /* in-page links (e.g. dispatches.html#news) land below the sticky nav */
 body{ background:var(--bg); }
 ::selection{ background:#e7d8f3; }
 .quarto-dark ::selection{ background:#43355c; }

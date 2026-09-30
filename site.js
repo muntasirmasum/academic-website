@@ -82,7 +82,7 @@
     {s:'Page',t:'About',u:'about.html',b:'Bio, appointments, education, honors, and service.'},
     {s:'Page',t:'Research',u:'research.html',b:'Themes, the interactive body map, and current funding.'},
     {s:'Page',t:'Publications',u:'publications.html',b:'Peer-reviewed work by year, plus papers under review.'},
-    {s:'Page',t:'Dispatches',u:'dispatches.html',b:'Talks, workshops, and writing.'},
+    {s:'Page',t:'Dispatches',u:'dispatches.html',b:'News, talks, workshops, and writing.'},
     {s:'Page',t:'Teaching',u:'teaching.html',b:'Courses, materials, R labs, and mentoring.'},
     {s:'Page',t:'Studio',u:'studio.html',b:'Visualizations, tools, and experiments.'}
   ];

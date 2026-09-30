@@ -31,6 +31,9 @@ DEPLOY.md            Hosting steps (Vercel / GitHub Pages)
   change means editing all seven pages.
 - When adding a publication/talk/section, add a matching entry to the `IDX`
   array in `site.js` so site search can find it.
+- **News:** add the item at the top of the News list in `dispatches.html`, and
+  paste the same line at the top of the home page News list, removing the
+  oldest so home keeps five.
 - Chronological lists are newest-first. Colors only via the CSS variables in
   `site.css` (`:root` light / `.quarto-dark` dark) so dark mode keeps working.
 
