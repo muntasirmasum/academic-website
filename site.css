@@ -36,6 +36,13 @@ body{ background:var(--bg); }
 @keyframes mmFadeUp{ from{ opacity:0; transform:translateY(10px); } to{ opacity:1; transform:none; } }
 @media (prefers-reduced-motion:reduce){ *,*::before,*::after{ animation-duration:.001ms !important; transition-duration:.001ms !important; } }
 
+/* ---------- PAGE CROSS-FADE ---------- */
+/* Soft fade between pages (Chrome, Edge, Safari 18.2+; others just navigate). The nav is
+   named so it stays put while the content fades. Off under reduced motion. */
+@view-transition{ navigation:auto; }
+.mm-nav{ view-transition-name:mm-nav; }
+@media (prefers-reduced-motion:reduce){ ::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){ animation:none !important; } }
+
 /* ---------- LINE BREAKING ---------- */
 /* Even out headline lines and avoid a lone last word in prose; ignored by older browsers. */
 .mm-name,.mm-role,.mm-affil,.mm-h1,.mm-h2,.mm-card-h3,.mm-pub-title,.mm-callout-title,

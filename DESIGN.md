@@ -163,8 +163,9 @@ Newsreader (serif) carries every display moment — name, headings, publication
 titles, stat numbers; IBM Plex Sans carries everything functional. One deep
 violet (`primary`, #46166b) does all interactive and emphasis work against
 cool near-white grounds. Depth comes from hairline borders, not shadows;
-motion is a small hover lift, nothing else. The whole palette swaps for dark
-mode with a single `.quarto-dark` class on `<html>`.
+motion is a small hover lift and a soft cross-fade between pages, nothing
+else. The whole palette swaps for dark mode with a single `.quarto-dark`
+class on `<html>`.
 
 ## Colors
 
@@ -232,7 +233,9 @@ Flat by default; structure comes from 1px borders. Exactly three uses of shadow:
 - Search overlay panel: `0 26px 64px rgba(15,12,20,.34)` over a blurred scrim.
 
 The sticky nav floats via translucency (`color-mix` 86% bg + backdrop blur),
-not shadow. Respect `prefers-reduced-motion` (already handled globally).
+not shadow, and is named for view transitions so it holds still during the page
+cross-fade. Respect `prefers-reduced-motion` (already handled globally, including
+the cross-fade).
 
 ## Shapes
 
@@ -287,8 +290,8 @@ Token values in the front matter; behavioral notes:
   (no templating).
 - **Don't** introduce new accent colors, gradients, emoji, or a third typeface.
 - **Don't** use gold for anything but under-review/planned status.
-- **Don't** add shadows beyond the three sanctioned uses, or hover motion
-  beyond the standard lift.
+- **Don't** add shadows beyond the three sanctioned uses, or motion beyond the
+  standard hover lift and the page cross-fade (`@view-transition` in `site.css`).
 - **Don't** hand-draw SVG imagery; use the striped placeholder pattern until a
   real figure exists.
 - **Don't** load an icon library. Icons are inline SVG (`fill`/`stroke="currentColor"`)
