@@ -20,7 +20,8 @@ site.css            All styling + light/dark color tokens (shared by every page)
 site.js             Dark-mode toggle, ⌘K / “/” search overlay, topic pop-ups, mobile menu
 favicon.svg         Site icon (the “MM” mark)
 sitemap.xml         Page list for search engines  ·  robots.txt
-headshot-circle.png Profile photo  ·  bodymap-figure.png  ·  cv.pdf
+headshot-circle.png Profile photo (+ .webp, generated)  ·  og-card.png Share card
+bodymap-figure.png  ·  cv.pdf
 ```
 
 Everything a page needs loads from a CDN (Google Fonts, MapLibre for the About

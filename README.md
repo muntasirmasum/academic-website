@@ -58,6 +58,16 @@ wording changes, then run `add_summary.py --regen`. Don't hand-edit between the
 those regions are overwritten. Re-running on a folder refreshes the title, venue,
 and DOI while keeping curated prose and keywords.
 
+## Regenerating the share card and hero photo
+
+`og-card.png` (the 1200×630 image LinkedIn and Bluesky show when the site is
+shared) and `headshot-circle.webp` (the small hero photo) are generated from
+`scripts/og-card.html` and `headshot-circle.png`. After changing either, run:
+
+```
+node scripts/make-images.js     # needs Playwright: npm install -g playwright
+```
+
 ## Local preview
 
 Any static server works, e.g.:
