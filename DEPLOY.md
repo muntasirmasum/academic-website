@@ -23,8 +23,8 @@ sitemap.xml         Page list for search engines  ·  robots.txt
 headshot-circle.png Profile photo  ·  bodymap-figure.png  ·  cv.pdf
 ```
 
-Everything a page needs loads from a CDN (Google Fonts, Iconify, MapLibre for the
-About map) or from these local files — so it runs anywhere static files are served.
+Everything a page needs loads from a CDN (Google Fonts, MapLibre for the About
+map) or from these local files — so it runs anywhere static files are served.
 
 ---
 

@@ -291,7 +291,8 @@ Token values in the front matter; behavioral notes:
   beyond the standard lift.
 - **Don't** hand-draw SVG imagery; use the striped placeholder pattern until a
   real figure exists.
-- **Don't** load Iconify on pages that don't already use it (currently home only).
+- **Don't** load an icon library. Icons are inline SVG (`fill`/`stroke="currentColor"`)
+  so they follow the theme; brand icons come from Simple Icons (LinkedIn from Material Design Icons).
 
 ## Content Conventions
 
