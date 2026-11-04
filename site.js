@@ -45,6 +45,7 @@
     {t:'Alcohol epidemiology across the life course',s:'Research',u:'research.html',b:'Drinking trajectories from adolescence into midlife and links to hypertension, CVD, and mortality.',k:['alcohol','longitudinal','chronic']},
     {t:'Social determinants & place',s:'Research',u:'research.html',b:'How cohesion, length of residence, and redlining pattern health by race, ethnicity, and sex.',k:['sdoh']},
     {t:'Machine learning for population health',s:'Research',u:'research.html',b:'Predictive models for cognition and CVD risk, and reproducible pipelines for survey harmonization.',k:['ml','reproducible']},
+    {t:'AI & Society Research Center Workshop Grant',s:'Funding',u:'research.html',b:'PI, $10,000, 2026-27. Expert workshop on when AI must defer to a person in harmonizing U.S. health survey data.',k:['ml','reproducible']},
     {t:'AI Plus Institute Agentic AI Seed Grant',s:'Funding',u:'research.html',b:'PI, 2026. Agentic AI for harmonizing BRFSS data.',k:['ml','reproducible']},
     {t:'SUNY AI Platform Award',s:'Funding',u:'research.html',b:'PI, $100,000, 2025-26. ML prediction of cardiovascular risk in early midlife.',k:['ml','chronic']},
     {t:'AI & Society Research Fellowship',s:'Funding',u:'research.html',b:'Fellow, 2026-27. AI & Society Research Center, co-funded by the Institute for Social and Health Equity.',k:['ml','sdoh']},
