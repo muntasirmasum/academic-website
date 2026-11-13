@@ -72,10 +72,11 @@
     {t:'HSPH 459 — Alcohol, Society & Health',s:'Course',u:'teaching.html',b:'An undergraduate course on alcohol, society, and health.',k:['alcohol']},
     {t:'Publication-Ready Tables in R',s:'Tutorial',u:'teaching.html',b:'A practical guide to Table 1 and regression tables with gtsummary and flextable.',k:['reproducible']},
     {t:'E3 Practices: Teaching Enhancement',s:'Manual',u:'teaching.html',b:'Eleven evidence-based teaching practices from the E3 fellowship, plus course design, with implementation notes for EPI 601.',k:[]},
-    {t:'Who Drinks America’s Alcohol?',s:'Writing',u:'dispatches.html',b:'October 2026, Alcohol Intelligence (Substack). Nearly half of US adults reported no past-month drinking in the 2024 NSDUH, and the heaviest tenth reported 71 percent of all drinks.',k:['alcohol']}
+    {t:'Who Drinks America’s Alcohol?',s:'Writing',u:'dispatches.html',b:'October 2026, Alcohol Intelligence (Substack). Nearly half of US adults reported no past-month drinking in the 2024 NSDUH, and the heaviest tenth reported 71 percent of all drinks.',k:['alcohol']},
+    {t:'How do neighborhoods impact our health?',s:'Media',u:'dispatches.html',b:'CIHS News, University at Albany, November 2026. A feature on three 2026 neighborhood studies: cohesion and drinking, disadvantage and obesity, and cohesion and self-rated health across racial and ethnic groups.',k:['sdoh','alcohol']}
   ];
   var TL={alcohol:'Alcohol epidemiology',sdoh:'Social determinants of health',ml:'Machine learning',longitudinal:'Survival & longitudinal data',chronic:'Chronic health outcomes',reproducible:'Reproducible research'};
-  var ORD={Publication:1,Summary:2,Research:3,Funding:4,Talk:5,Course:6,Tutorial:7,Manual:8,Visualization:9,Tool:10,Writing:11};
+  var ORD={Publication:1,Summary:2,Research:3,Funding:4,Talk:5,Course:6,Tutorial:7,Manual:8,Visualization:9,Tool:10,Writing:11,Media:12};
   var ov,headEl,listEl,inputEl,rows=[],sel=-1;
   var NAV=[
     {s:'Page',t:'Home',u:'index.html',b:'Overview, selected work, and recent news.'},
