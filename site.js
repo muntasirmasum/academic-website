@@ -70,6 +70,7 @@
     {t:'No Protective Effect of Moderate Drinking',s:'Talk',u:'dispatches.html',b:'Invited talk, 2025. Beyond Addiction Symposium, University at Albany.',k:['alcohol']},
     {t:'EPI 553 — Principles of Statistical Inference II',s:'Course',u:'teaching.html',b:'Graduate biostatistics — regression, ANOVA, logistic, Poisson, and survival models.',k:['longitudinal','reproducible']},
     {t:'HSPH 459 — Alcohol, Society & Health',s:'Course',u:'teaching.html',b:'An undergraduate course on alcohol, society, and health.',k:['alcohol']},
+    {t:'EPI 517 — Alcohol Epidemiology',s:'Course',u:'teaching.html',b:'New in Spring 2027. Graduate alcohol epidemiology, taught as a shared-resource course with the undergraduate SPH 417: Alcohol, Society, and Health.',k:['alcohol']},
     {t:'Publication-Ready Tables in R',s:'Tutorial',u:'teaching.html',b:'A practical guide to Table 1 and regression tables with gtsummary and flextable.',k:['reproducible']},
     {t:'E3 Practices: Teaching Enhancement',s:'Manual',u:'teaching.html',b:'Eleven evidence-based teaching practices from the E3 fellowship, plus course design, with implementation notes for EPI 601.',k:[]},
     {t:'Who Drinks America’s Alcohol?',s:'Writing',u:'dispatches.html',b:'October 2026, Alcohol Intelligence (Substack). Nearly half of US adults reported no past-month drinking in the 2024 NSDUH, and the heaviest tenth reported 71 percent of all drinks.',k:['alcohol']},
