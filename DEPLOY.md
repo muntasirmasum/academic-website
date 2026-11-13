@@ -12,7 +12,7 @@ about.html          Bio, appointments, education, places map, contact
 research.html       Research themes, interactive body map, funding
 publications.html   Selected + by-year + under review
 dispatches.html     Talks, conference presentations, writing, newsletter
-teaching.html       Courses, materials, RPubs collection, mentoring
+teaching.html       Courses, materials, EPI 553 course site, mentoring
 studio.html         Visualizations, tools, experiments (filterable)
 404.html            Not-found page
 
